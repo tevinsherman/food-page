@@ -2,9 +2,53 @@ body {
   padding: 0;
   margin: 0;
   font-size: 1rem;
-  font-family: 'Source-sans';
+  font-family: 'Source-sans' sans-serif;
   text-align: center;
+  color: #404040;
 }
 
 /* Typography */
+
+h1 {
+  font-size: 2.25rem;
+  font-weight: 300;
+}
+
+h1 + p {
+  color: #f37121;
+  font-weight: 900;
+  font-size: 1.3125rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+h2 + p {
+  font-weight: 900;
+  color: #f37121;
+}
+
+strong {
+  font-weight: 900;
+  color: #fff;
+}
+
+.top-text {
+  font-size: 0.625rem;
+  color: #f37121;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.fine-print {
+  font-size: 0.625rem;
+  letter-spacing: 1px;
+}
+
+.intro {
+  background-image : url(../img/pizza.jpg);
+  padding: 0 25em;
+}
 
