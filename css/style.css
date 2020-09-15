@@ -1,5 +1,5 @@
 body {
-  padding: 0;
+  /* padding: 0; */
   margin: 0;
   font-size: 1rem;
   font-family: 'Source-sans' sans-serif;
@@ -12,6 +12,7 @@ body {
 h1 {
   font-size: 2.25rem;
   font-weight: 300;
+  margin: 2em;
 }
 
 h1 + p {
@@ -23,11 +24,13 @@ h1 + p {
 
 h2 {
   font-size: 1.3rem;
+  margin: 0;
 }
 
 h2 + p {
   font-weight: 900;
   color: #f37121;
+  margin-top: 0;
 }
 
 strong {
@@ -40,15 +43,26 @@ strong {
   color: #f37121;
   font-weight: 900;
   text-transform: uppercase;
+  order: -1;
 }
 
 .fine-print {
   font-size: 0.625rem;
   letter-spacing: 1px;
 }
-
+/* INTRO SECTION */
 .intro {
-  background-image : url(../img/pizza.jpg);
-  padding: 0 25em;
+  background-image: url(../img/pizza-2.jpg);
+  /* background-repeat: no-repeat; */
+   /* background-size: contain, cover;  */
+  display: flex;
+  flex-direction: column;
+  padding: 0 25em 1em;
+}
+
+/* Main Section */
+
+.main-section {
+  padding: 2em 0;
 }
 
