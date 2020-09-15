@@ -1,6 +1,7 @@
-body {
-  /* padding: 0; */
+  body {
+   padding: 0; 
   margin: 0;
+  box-sizing: border-box;
   font-size: 1rem;
   font-family: 'Source-sans' sans-serif;
   text-align: center;
@@ -9,11 +10,11 @@ body {
 
 /* Typography */
 
-h1 {
+ h1 {
   font-size: 2.25rem;
   font-weight: 300;
   margin: 2em;
-}
+} 
 
 h1 + p {
   color: #f37121;
@@ -53,11 +54,13 @@ strong {
 /* INTRO SECTION */
 .intro {
   background-image: url(../img/pizza-2.jpg);
-  /* background-repeat: no-repeat; */
-   /* background-size: contain, cover;  */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #404040;
   display: flex;
   flex-direction: column;
-  padding: 0 25em 1em;
+  padding: 0 .5em 2em;
 }
 
 /* Main Section */
@@ -66,3 +69,23 @@ strong {
   padding: 2em 0;
 }
 
+
+/* Media quieries */
+
+@media (min-width: 500px) {
+  body {
+    font-size: 1.125rem;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2,
+  h2 + p {
+    font-size: 1.75em;
+  }
+}
+
+ 
+ 
