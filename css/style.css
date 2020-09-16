@@ -102,6 +102,10 @@ strong {
     width: 50%; 
      min-height: 100vh; 
   } 
+
+  .container-intro {
+    height: 100%;
+  }
 }
 
  
