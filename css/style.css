@@ -90,7 +90,7 @@ strong {
 .container {
   max-width: 400px;
   margin: 0 auto;
-  border: 3px solid magenta;
+  
 }
 
 .container-intro {
@@ -102,7 +102,7 @@ strong {
 /* Form */
 .email-collector {
   width: 100%;
-  max-width: 325px;
+  max-width: 425px;
 }
 
 input,
@@ -117,6 +117,12 @@ input {
   text-align: inherit;
   padding: .25em;
   border: 1px solid #404040;
+  transform: scale(1);
+}
+
+input:focus {
+  transform: scale(1.1);
+  transition: transform 250ms;
 }
 
 .btn {
@@ -129,8 +135,16 @@ input {
 }
 
 .btn-primary {
-  background: linear-gradient(#fc8d48, #f56207);
+  background: linear-gradient(to left,#fc8d48, #f56207);
   color: #fff;
+ transform: scale(1);
+ transition: transform 250ms;
+}
+
+.btn-primary:hover {
+  color: #404040;
+  transform: scale(1.2);
+
 }
 /* Media quieries */
 
