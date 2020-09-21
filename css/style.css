@@ -51,6 +51,10 @@ strong {
   font-weight: 900;
   text-transform: uppercase;
   order: -1;
+  border-top: 5px solid #f56207;
+  margin: 0;
+  padding-top: 1em;
+  border-image: linear-gradient(to left, #f56207,#fdb487) 1;
 }
 
 .fine-print {
@@ -63,13 +67,14 @@ strong {
 }
 /* INTRO SECTION */
 .intro {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/pizza-2.jpg');
+  background-image: url('../img/pizza-3.jpg'), linear-gradient(45deg, #fcf7f4, #fa741a); 
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+   background-blend-mode: multiply; 
   padding: 0 .5em 2em;
-  opacity: 4;
-  background-color: #404040;
+  /* opacity: 4; */
+  /* background-color: #404040; */
    
 }
 
